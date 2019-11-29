@@ -1,4 +1,6 @@
 # ThETA
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjuuussi%2FThETA.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjuuussi%2FThETA?ref=badge_shield)
+
 ThETA: Transcriptome-driven Efficacy estimates for gene-based TArget discovery
 
 This R package was built to provide the implementation of novel trasncriptome-based efficacy scores of target(gene)-disease associations, which have been recentely described in [Failli et al. 2019](https://www.nature.com/articles/s41598-019-46293-7). It provides utility functions to recompile the scores based on the selection of different disease-relevant gene sets and tissue-specific gene expresstion profiles. Morevoer, it provides the users with an easy access to the disease-gene association scores compiled by the [Open Targets platform](https://www.targetvalidation.org/) and functions to merge the OT-based scores with our novel efficacy scores in order to provide a final prioritization of target(gene)-disease associations. Finally, the users can run basic visualization functions in order to visualize the tissue-specific gene networks and biological annotations associated to top drug targets (or genes) and closely related genes slected with a random walk algorithm. 
@@ -43,3 +45,7 @@ Mario Failli <m.failli@tigem.it>
 
 Vittorio Fortino <vittorio.fortino@uef.fi>
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjuuussi%2FThETA.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjuuussi%2FThETA?ref=badge_large)
